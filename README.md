@@ -1,81 +1,18 @@
-# agi-test-1
-{
-  "text": "how many people between Tuesday and Friday",
-  "intents": [
-    {
-      "id": "1701608719981716",
-      "name": "inquiry",
-      "confidence": 0.8849
-    }
-  ],
-  "entities": {
-    "metric:metric": [
-      {
-        "id": "3701487719281796",
-        "name": "metric",
-        "role": "metric",
-        "start": 9,
-        "end": 15,
-        "body": "people",
-        "value": "metric_visitor",
-        "confidence": 0.9231,
-        "entities": {}
-      }
-    ],
-    "wit$datetime:datetime": [
-      {
-      "id": "1701608719981711",
-      "name": "wit$datetime",
-      "role": "datetime",
-      "start": 16,
-      "end": 42,
-      "body": "between Tuesday and Friday",
-      "confidence": 0.9541,
-      "entities": {},
-      "type": "interval",
-      "from": {
-        "grain": "day",
-        "value": "2020-05-05T00:00:00.000-07:00"
-      },
-      "to": {
-        "grain": "day",
-        "value": "2020-05-09T00:00:00.000-07:00"
-      },
-      "values": [
-        {
-          "type": "interval",
-          "from": {
-            "grain": "day",
-            "value": "2020-05-05T00:00:00.000-07:00"
-          },
-          "to": {
-            "grain": "day",
-            "value": "2020-05-09T00:00:00.000-07:00"
-          }
-        },
-        {
-          "type": "interval",
-          "from": {
-            "grain": "day",
-            "value": "2020-05-12T00:00:00.000-07:00"
-          },
-          "to": {
-            "grain": "day",
-            "value": "2020-05-16T00:00:00.000-07:00"
-          }
-        },
-        {
-          "type": "interval",
-          "from": {
-            "grain": "day",
-            "value": "2020-05-19T00:00:00.000-07:00"
-          },
-          "to": {
-            "grain": "day",
-            "value": "2020-05-23T00:00:00.000-07:00"
-          }
-        }
-      ]
-    ]
-  }
-}
+PINECONE_API_KEY=8ba413c2-15c3-4faa-9ea3-2cf4c7a38a2d
+PINECONE_ENV=your-pinecone-region
+OPENAI_API_KEY=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
+ELEVENLABS_VOICE_1_ID=your-voice-id
+ELEVENLABS_VOICE_2_ID=your-voice-id
+SMART_LLM_MODEL=gpt-3
+FAST_LLM_MODEL=gpt-3.5-turbo
+GOOGLE_API_KEY=
+CUSTOM_SEARCH_ENGINE_ID=
+USE_AZURE=False
+EXECUTE_LOCAL_COMMANDS=False
+IMAGE_PROVIDER=dalle
+HUGGINGFACE_API_TOKEN=
+USE_MAC_OS_TTS=False
+MEMORY_BACKEND=local
+
+
+    
